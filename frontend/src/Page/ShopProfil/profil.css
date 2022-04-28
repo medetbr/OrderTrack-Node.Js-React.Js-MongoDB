@@ -1,0 +1,116 @@
+.shop-profile{
+    display: flex;
+    width: 90%;
+}
+.shop-profile-wrapper{
+   flex: 8.4;
+   margin-left: 50px;
+}
+
+.shop-profil-head img{
+    border-radius: 50%;
+    height: 120px;
+}
+.shop-profil-center{
+    padding: 0 50px;
+}
+.shop-profil-head h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    border-bottom: 1px solid #999;
+    padding: 20px 0;
+    color: rgb(100, 100, 100);
+}
+.label-name{
+    float: left;
+    width: 50%;
+}
+.label-surname {
+    float: right;
+    width: 50%;
+}
+.label-name input,
+.label-surname input{
+  display: block;
+  width: 80%;
+  margin: 10px 0;
+  padding: 7px 5px;
+  border-radius: 7px;
+  border: 1px solid #999;
+}
+.label-email input,
+.label-username input,
+.label-password input
+{
+    display: block;
+    width: 90.4%;
+    margin: 10px 0;
+    padding: 7px 5px;
+    border-radius: 7px;
+    border: 1px solid #999;
+}
+.shop-profil-change{
+    color: dodgerblue;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 33px;
+    transition: all 0.3s;
+}
+.shop-profil-change:hover{
+    color: rgb(14, 115, 216);
+}
+.shop-profil-center{
+    margin-top: 15px;
+}
+.shop-profil-save-btn{
+    float: right;
+    margin-right: 70px;
+    padding: 8px 10px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    background-color: dodgerblue;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+    font-size: 15px;
+}
+.shop-profil-save-btn:hover{
+    background-color: rgb(3, 114, 224);
+}
+.shop-profil-update-succesful{
+    color: rgb(54, 59, 52);
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color:#a9f1ba ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+}
+.shop-profil-update-error{
+    color: rgb(63, 42, 42);
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color:#ffb7bd ;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-right: 70px;
+}
+.shop-profile-create-button {
+  margin: 15px 0 25px 80px ;
+  width: 90%;
+  border: none;
+  padding: 15px 0;
+  border-radius: 10px;
+  color: #ffff;
+  font-weight: 600;
+  background-color: rgb(52, 133, 255);
+  cursor: pointer;
+  font-size: 17px;
+  transition: all 0.4s;
+}
+.shop-profile-create-button:hover {
+  background-color: rgb(7, 93, 223);
+}

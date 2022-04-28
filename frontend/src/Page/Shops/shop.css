@@ -1,0 +1,180 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px;
+  flex: 7.5;
+}
+.list-container {
+  display: flex;
+  width: 915px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.shops {
+  background-color: #fff;
+  width: 280px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 24px;
+  margin-bottom: 40px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  position: relative;
+}
+.star-area {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  height: 30px;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+  background-color: #fff;
+}
+.fa-star {
+  color: #f8c006;
+}
+.rate {
+  margin: 0 4px;
+  font-weight: 700;
+  color: #ffbe00;
+}
+.shops img {
+  position: relative;
+  height: 158px;
+  width: 280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.shops-center {
+  width: 100%;
+}
+.shops-center > div {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.shop-item-profile {
+  width: 40px;
+  padding-left: 10px;
+}
+.shop-item-profile img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+.shop-item-profile-wrapper {
+  margin-left: 7px;
+  width: 100%;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+}
+.shop-item-profile-name {
+  height: 40px;
+}
+.shop-item-profile-name p {
+  margin: 0;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 151px;
+  text-overflow: ellipsis;
+}
+.shop-item-profile-price {
+  height: 40px;
+  padding-right: 16px;
+}
+.shop-item-profile-price p {
+  margin-bottom: 0;
+  padding: 0;
+}
+.min-price {
+  font-size: 26px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -1.1px;
+  margin-top: -8px;
+  text-align: right;
+  color: #26ca9a;
+}
+.min-price span {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #26ca9a;
+  padding-left: 3px;
+}
+.begining {
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #8b95a1;
+  margin-top: 0;
+}
+.shops-description {
+  text-indent: 10px;
+  height: 50px;
+}
+.shops-description p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 279px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #707070;
+  font-family: "Poppins", sans-serif;
+}
+.shops-description p:first-child {
+ color: #4b4d4f;
+ font-size: 15px;
+}
+.shop-item-bottom {
+  width: 100%;  
+}
+.shop-item-bottom p {
+  margin:15px 0;
+  border-bottom: 2px solid rgb(239, 243, 248);
+  height: 10px;
+  margin-bottom: 8px;
+}
+.shops-bottom {
+  text-decoration: none;
+  background-color: #696969;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.4s;
+}
+.shops-bottom:hover {
+  background-color: rgb(255, 124, 37);
+}

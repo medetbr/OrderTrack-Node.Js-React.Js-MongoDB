@@ -1,0 +1,105 @@
+ .pending-order{    
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.233)!important;
+  }
+ .shop-order-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex: 9.6;
+    margin: 25px;
+    height: 100%;
+  }
+  .shop-order-wrapper h1{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.233)!important;
+    margin: 0;
+    grid-column: 1/3;
+    color: #5e5e5e;
+    font-weight: normal;
+    font-size: 34px;
+    text-align: center;
+    padding-bottom: 5px;
+    height: 55px;
+    padding-top: 13px;
+    border-radius: 8px;
+  }
+  .pending-order-top b{
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .shop-order-top{
+     text-align: center;
+     font-size: 18px;
+     border-bottom: 1px solid #999;
+     padding: 7px 0px;
+     background-color: rgb(104 104 104);
+     color: #ffffff;
+  }
+  .shop-order-center table{
+   border: none;
+   width: 80%;
+   margin: 15px 0;
+   margin-left: 20px;
+  }
+  
+  .shop-order-center  tr:nth-child(even) {background-color: #f9f9f9;}
+  .item-delete-button{
+   width: 7%;
+   padding: 0;
+  }
+  .shop-order-center {
+    overflow-y: scroll;
+    height: 200px;
+  }
+  .shop-order-address{
+    padding: 10px 10px;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+  }
+  .shop-order-address p,.shop-order-description p{
+    margin: 5px 0 0 10px ;
+  
+  }
+  .shop-order-description {
+    padding: 10px 10px;
+    }
+  .shop-order-description p::first-letter,.shop-order-address p::first-letter{
+  text-transform: capitalize;
+  }
+  /* .order-rejection-btn{
+    background-color: #ff2502;
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 18px;
+    width: 25%;
+    transition: all 0.4s;
+  }
+  .order-rejection-btn:hover{
+    background-color: #e42200;
+  }
+  .order-confirm-btn{
+    background-color: rgb(47 205 11);
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+    font-weight: 600;
+    padding: 10px 0;
+    width: 25%;
+    transition: all 0.4s;
+  }
+  .order-confirm-btn:hover{
+    background-color: rgb(34, 185, 0);
+  } */
+  .active-order{
+    background-color: #0099ff;
+  }
+  .rejective-order{
+    background-color: #fd4056;
+  }
+  .confirmation-order{
+    background-color: #26ca5d;
+  }

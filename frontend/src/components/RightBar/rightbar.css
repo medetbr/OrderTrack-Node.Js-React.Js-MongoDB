@@ -1,0 +1,17 @@
+.right-bar{
+    flex: 2.5;
+    position: sticky;
+    top: 65px;
+    background-image: linear-gradient(to bottom, rgb(233, 233, 233),rgb(214, 214, 214));
+    height: calc(100vh - 65px);
+    box-shadow: 2px 7px 20px 4px rgba(0, 0, 0, 0.137);
+}
+
+.right-bar-title{
+    background-image: linear-gradient(to bottom,rgb(255, 44, 7),rgb(255, 81, 0));
+    color: #fff;
+    padding: 17px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}

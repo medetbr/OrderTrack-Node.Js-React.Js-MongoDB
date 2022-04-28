@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p::first-letter{
+  text-transform: uppercase;
+}
+::-webkit-scrollbar {
+  width: 9px;
+}
+p{
+  margin: 0;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(186, 186, 186);
+  border-radius: 6px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(167, 167, 167); 
+}

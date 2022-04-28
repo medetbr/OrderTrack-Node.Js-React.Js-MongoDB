@@ -1,0 +1,30 @@
+footer{
+    position: relative;
+    bottom: 0;
+    background: rgb(170, 8, 8);
+    width: 98.9vw;
+    padding-top: 30px;
+    color: #fff;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    font-size: 18px;
+}
+.footer-icon{
+    cursor: pointer;
+    font-size: 35px;
+    margin: 0 10px;
+    transition: all 0.3s;
+}
+.footer-icon:hover{
+    color: dodgerblue;
+}

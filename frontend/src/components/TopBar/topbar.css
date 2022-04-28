@@ -1,0 +1,107 @@
+.topbar {
+  background-image: linear-gradient(-90deg,rgb(255, 44, 7),rgb(255, 81, 0));
+  display: flex;
+  position: sticky;
+  height: 65px;
+  top: 0;
+  z-index: 5;
+}
+.logo{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    margin: 7px 0px 7px 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.logo:hover{
+    color: rgb(224, 219, 219);
+}
+.left{
+   
+    flex: 4;
+}
+.right{
+    flex: 3;
+}
+.buttons-tb{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.login-button-tb{
+    text-decoration: none;
+    display: inline-block;
+    border-left: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(0, 119, 255), rgb(34, 172, 243));
+    padding: 17px 79.5px;
+    transition: opacity 0.7s;
+}
+.register-button-tb{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(253, 139, 8), rgb(223, 192, 17));
+    padding: 15.5px 78px;
+    border-right: 4px solid rgb(255, 255, 255);
+    transition: opacity 0.7s;
+}
+.login-button-tb:hover{
+    opacity: 95%;
+    background-image: linear-gradient(to right, rgb(0, 99, 255), rgb(34, 182, 243));
+}
+.register-button-tb:hover{
+    opacity: 90%;
+    background-image: linear-gradient(to right, rgb(253, 106, 8), rgb(223, 175, 17));
+}
+
+  .interface-center{
+      flex: 4;
+      padding: 14px 95px ;
+  }
+ 
+  .interface-search-bar{
+      margin-left: 55px ;
+  }
+  .searchbar-icon{
+      color: rgb(255, 255, 255);
+      padding: 0 10px;
+      cursor: pointer;    
+  }
+  .searchbar-input{
+      width: 40%;
+      height: 20px;
+      padding: 5px 15px;
+      padding-right: 65px;
+      border: 0;
+      font-size: 16px;
+       border-radius: 15px;
+  }
+  .searchbar-input:focus{
+      outline: none; 
+  }
+  .search-button{
+      position: relative;
+      cursor: pointer;
+      right: 54px;
+      font-size: 18px;
+      border: none;
+      border-left: 2px solid #999;
+     background: none;
+      color: rgb(109, 109, 109);
+      font-weight: 600;
+      transition: all 0.2s;
+  }
+  .search-button:hover{
+     color: rgb(185, 185, 185);
+  }
+  
+  

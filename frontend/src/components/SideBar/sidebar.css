@@ -1,0 +1,47 @@
+.side-bar{
+    flex: 2;
+    position: sticky;
+    top: 65px;
+    background-image: linear-gradient(to top,rgb(255, 44, 7),rgb(255, 81, 0));
+    height: calc(100vh - 65px);
+    box-shadow: 2px 7px 20px 4px rgba(0, 0, 0, 0.137); 
+    width: 300px; 
+}
+.user-profile{
+    border-radius: 50%;
+    height: 80px;
+    margin: 15px 75px 5px 75px;
+}
+.user-name{
+    color: #fff;
+    font-weight: 600;
+    margin: 3px 50px;
+    text-transform: capitalize;
+}
+
+.user-type{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.side-bar-buttons{
+    display: grid;
+    margin-top: 45px;
+    row-gap: 8px;
+}
+.side-bar-buttons a i{
+    margin-right: 10px;
+    color: #5c5c5c;
+}
+.side-bar-buttons  a{
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(211, 211, 211));
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px 55px;
+}
+.side-bar-buttons a:hover{
+    background-image: linear-gradient(to right, rgb(238, 238, 238),rgb(185, 185, 185));
+}

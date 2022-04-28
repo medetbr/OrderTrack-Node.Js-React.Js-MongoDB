@@ -1,0 +1,106 @@
+.register-title {
+  font-size: 35px;
+  color: rgb(37, 37, 37);
+  margin-top: 0px;
+  text-align: center;
+}
+.register {
+    background-image: linear-gradient(rgba(253, 77, 8, 0.479), rgba(14, 18, 34, 0.876)), url("../../../public/assets/pizza.jpg");
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.register-wrapper {
+  padding: 75px 49px 50px 50px;
+  height: calc(100vh - 115px);
+  background-color: rgb(250, 250, 250);
+  position: sticky;
+}
+.username {
+  padding: 10px 0;
+}
+.password {
+  padding: 10px 0;
+}
+
+.email-label,
+.password-label,
+.username-label,
+.name-label,
+.surname-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.password-input, .username-input,
+.name-input,.surname-input, .email-input {
+  border-radius: 7px;
+  padding: 10px 10px;
+  font-size: 17px;
+  margin-left: 22px;
+  border: 1px solid #999;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 20px;
+}
+.customer-radio {
+  font-size: 19px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.shop-radio {
+  font-size: 19px;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.descriptin{
+    color: #fff;
+    text-indent: 25px;
+    background-image: linear-gradient(to right, rgb(221, 37, 37), rgb(158, 20, 7));
+    opacity: 90%;
+    padding: 50px 70px;
+    margin: 0 45px;
+    margin-bottom: 75px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.button-registr {
+  cursor: pointer;
+  padding: 13px 15px;
+  width: 100%;
+  border: none;
+  background-color: rgb(253, 139, 8);
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+.button-registr:hover {
+  background-color: rgb(253, 98, 8);
+}
+input:focus {
+  outline: none;
+}
+.fa-spinner{
+  font-size: 19px;
+  color: rgb(255, 255, 255);
+  animation: loading 4s linear infinite;
+}
+@keyframes loading {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}

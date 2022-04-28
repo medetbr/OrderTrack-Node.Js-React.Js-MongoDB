@@ -1,0 +1,137 @@
+.user-orders {
+  display: flex;
+}
+.user-orders-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin: 20px 30px;
+  width: 80%;
+  height: 100%;
+}
+.user-order-head {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.233) !important;
+  border-radius: 8px;
+  width: 100%;
+  grid-column: 1/3;
+  text-align: center;
+  color: #5e5e5e;
+  font-size: 35px;
+  height: 61px;
+  background-color: #f9fafb;
+  padding-top: 10px;
+}
+.confirmed {
+  display: flex;
+  height: 16px;
+  border-radius: 10px;
+  background-color: #26ca5d;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.22px;
+  text-align: center;
+  color: #fff;
+  padding: 2.5px 6px 0px 6px;
+  align-items: center;
+  justify-content: center;
+}
+.denied {
+  display: flex;
+  height: 16px;
+  border-radius: 10px;
+  background-color: #fd4056;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.22px;
+  text-align: center;
+  color: #fff;
+  padding: 2.5px 6px 0px 6px;
+  align-items: center;
+  justify-content: center;
+}
+.active {
+  display: flex;
+  height: 16px;
+  border-radius: 10px;
+  background-color: #1bbbd7;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.22px;
+  text-align: center;
+  color: #fff;
+  padding: 2.5px 6px 0px 6px;
+  align-items: center;
+  justify-content: center;
+}
+.order-delete-btn {
+  background-color: #fd4056;
+  border: none;
+  cursor: pointer;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 13px;
+  width: 80px;
+  height: 35px;
+  transition: all 0.4s;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+.order-delete-btn:hover {
+  background-color: #ff4b2b;
+}
+.order-delete-btn:disabled {
+    background-color: #ff7d67;
+    cursor: no-drop;
+  }
+.order-change-btn {
+  background-color: #49d9e9;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  color: #ffff;
+  font-weight: 600;
+  width: 80px;
+  height: 35px;
+  transition: all 0.4s;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+.order-change-btn:hover {
+  background-color: #00cae0;
+}
+.pending-order-btm-container {
+  width: 600px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 1px 0 0 #eaedf2, 0 -1px 0 0 #eaedf2;
+  background-color: #f9fafb;
+}
+.pending-order-btm-container div {
+  margin-left: 0px;
+  margin-right: 55px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pending-order-btm-container span {
+  display: flex;
+}
+.pending-order-btm-container span p {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(45, 54, 64);
+  }
+.pending-order-btm-container span i {
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
+  margin-right: 5px;
+  color: #737980;
+}
+.pending-order-info{
+    overflow-y: scroll;
+    height: 120px;
+}

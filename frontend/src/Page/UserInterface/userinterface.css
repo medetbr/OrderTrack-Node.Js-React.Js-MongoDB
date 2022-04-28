@@ -1,0 +1,35 @@
+.user-interface{
+    display: flex;
+    background-color: rgb(246, 246, 246);
+}
+
+.feed{
+    flex: 7.5;
+}
+.shop-interface{
+    display: flex;
+    background-color: rgb(246, 246, 246);
+}
+.shop-side-bar{
+    flex: 2;
+    position: sticky;
+    top: 55px;
+    background-image: linear-gradient(to bottom, rgb(223, 25, 8),rgb(180, 12, 12));
+    height: calc(100vh - 55px);
+    width: 20px;
+    box-shadow: 2px 7px 20px 4px rgba(0, 0, 0, 0.137); 
+}
+.shop-inteface-center{
+    flex: 10;
+}
+
+.user-profile{
+    border-radius: 50%;
+    height: 80px;
+    margin: 15px 75px 5px 75px;
+}
+.user-type{
+    color: #fff;
+    font-weight: 600;
+    margin-left: 50px;
+}
